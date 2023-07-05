@@ -1,3 +1,4 @@
+import Human.Human;
 import lombok.*;
 
 public class Main {
@@ -7,16 +8,4 @@ public class Main {
         human.setLastName("Petrov");
         System.out.println(human);
     }
-}
-@Getter
-@Setter
-@NoArgsConstructor
-@AllArgsConstructor
-@ToString
-class Human {
-    private String firstName;
-    private String lastName;
-
-
-
 }
